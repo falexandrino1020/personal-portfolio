@@ -47,6 +47,13 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg"> Web Design </h4>
+                                <p className="text-muted-foreground">
+                                    Creating responsive websites and web applications using modern frameworks, with a focus on intuitive
+                                    user interfaces and seamless user experiences.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
@@ -54,12 +61,28 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg"> Backend Development </h4>
+                                <p className="text-muted-foreground">
+                                    Designing and building scalableaand secure backends using
+                                    modern technologies. This includes developing RESTful APIs, integrating databases,
+                                    and implementing authentication and third-party services to support full-stack applications.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                     <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Briefcase className="h-6 w-6 text-primary"/>
+                            </div>
+                            <div className="text-left">
+                                <h4 className="font-semibold text-lg"> Relevant Experience </h4>
+                                <p className="text-muted-foreground">
+                                    I have one year of hands-on experience as an application developer at a startup, where I contributed
+                                    to real-world projects from concept to deployment. For a detailed list of my accomplishments, please
+                                    refer to my resume.
+                                </p>
                             </div>
                         </div>
                     </div>
