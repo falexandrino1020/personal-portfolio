@@ -1,6 +1,8 @@
 import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
+    const resumeUrl = `${import.meta.env.BASE_URL}FelipeAlexandrino-Resume.pdf`;
+
     return (
         <section id="about" className="py-24 px-4 relative">
         {" "}
@@ -24,8 +26,8 @@ export const AboutSection = () => {
                         My background started as a support specialist, where I learned the value of communication and problem-solving
                         under pressure. That experience now fuels my approach to software development: writing clean,
                         maintainable code that serves real user needs. Over the past year, I’ve contributed to building company-wide internal tools and applications as an original developer,
-                        building scalable backends in C# and crafting responsive, accessible frontends with Telerik. I am also
-                        familiar with many other languages and frameworks, for more information, please see my skills section :{")"}
+                        building scalable backends in C# and crafting responsive, accessible frontends with Telerik for our departments to serve thousands of clients. I am also
+                        familiar with many other languages and frameworks, for more information, please download my resume or view my skills section.
                     </p>                    
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -34,7 +36,8 @@ export const AboutSection = () => {
                             Get In Touch
                         </a>
 
-                        <a  href=""
+                        <a  href={resumeUrl}
+                            download
                             className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                             Download Resume
                         </a>

@@ -8,7 +8,7 @@ const projects = [
       "Recreated the user interface and core layout of YouTube to improve frontend development skills and strengthen proficiency in responsive design. I also wanted to build a habit of developing.",
     image: "/projects/project1.png",
     tags: ["HTML", "CSS"],
-    githubUrl: "https://github.com/felipefalcon20/Practice/tree/main/Html-CSS-Practice-main",
+    githubUrl: "https://github.com/falexandrino1020/Practice/tree/main/Html-CSS-Practice-main",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
       "Built an interactive, terminal-based slot machine game featuring randomized logic, stylized text output, and synchronous input handling for engaging command-line gameplay.",
     image: "/projects/project2.png",
     tags: ["JavaScript", "Node.js", "Prompt-Sync"],
-    githubUrl: "https://github.com/felipefalcon20/Practice/tree/main/JS-Practice-SlotMachine-main",
+    githubUrl: "https://github.com/falexandrino1020/Practice/tree/main/JS-Practice-SlotMachine-main",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const projects = [
       "Personal website showcasing skills, GitHub projects, and contact information. Built with modern front-end tooling and responsive design principles.",
     image: "/projects/project3.png",
     tags: ["React", "Vite", "Tailwind CSS"],
-    githubUrl: "https://github.com/felipefalcon20/personal-portfolio",
+    githubUrl: "https://github.com/falexandrino1020/personal-portfolio",
   },
 ];
 
