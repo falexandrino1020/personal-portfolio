@@ -95,12 +95,6 @@ export const ContactSection = () => {
                 <a href="https://github.com/falexandrino1020" target="_blank">
                   <Github />
                 </a>
-                <a
-                  href="https://www.instagram.com/felipefalcon/"
-                  target="_blank"
-                >
-                  <Instagram />
-                </a>
               </div>
             </div>
           </div>

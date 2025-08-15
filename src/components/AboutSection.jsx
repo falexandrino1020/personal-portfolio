@@ -25,7 +25,7 @@ export const AboutSection = () => {
                     <p className="text-muted-foreground">
                         My background started as a support specialist, where I learned the value of communication and problem-solving
                         under pressure. That experience now fuels my approach to software development: writing clean,
-                        maintainable code that serves real user needs. Over the past year, I’ve contributed to building company-wide internal tools and applications as an original developer,
+                        maintainable code that serves real user needs. Over the past year, I’ve contributed to building company-wide internal tools and applications,
                         building scalable backends in C# and crafting responsive, accessible frontends with Telerik for our departments to serve thousands of clients. I am also
                         familiar with many other languages and frameworks, for more information, please download my resume or view my skills section.
                     </p>                    
@@ -67,7 +67,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Backend Development </h4>
                                 <p className="text-muted-foreground">
-                                    Designing and building scalableaand secure backends using
+                                    Designing and building scalable and secure backends using
                                     modern technologies. This includes developing RESTful APIs, integrating databases,
                                     and implementing authentication and third-party services to support full-stack applications.
                                 </p>
