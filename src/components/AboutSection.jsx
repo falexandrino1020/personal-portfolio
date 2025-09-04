@@ -1,8 +1,8 @@
 import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
-    const resumeUrl = `${import.meta.env.BASE_URL}FelipeAlexandrino-Resume.pdf`;
-
+    const resumeUrl = "/FelipeAlexandrino-Resume.pdf";
+    
     return (
         <section id="about" className="py-24 px-4 relative">
         {" "}
