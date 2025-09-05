@@ -158,7 +158,7 @@ export const ContactSection = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
-                  placeholder="Please note I do not pay for the functionality to send a message through this form. To get in touch, please send an email or reach out by email. "
+                  placeholder="Please note I do not pay for the functionality to send a message through this form. To get in touch, please reach out by email. "
                 />
               </div>
 
